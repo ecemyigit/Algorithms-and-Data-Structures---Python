@@ -4,6 +4,9 @@ import random
 import sys
 sys.setrecursionlimit(10**6)
 
+# Code implementing fast sorting algorithms and comparing their execution time. Input is randomly generated for integers, while string inputs are taken from the URL.
+
+
 # Loading the strings from the website and convert to list
 url = 'http://norvig.com/ngrams/count_1w.txt'
 response = urllib.request.urlopen(url)
