@@ -1,6 +1,8 @@
 import random
 import time
 
+# Code implementing basic sorting algorithms and comparing their execution time. Input is randomly generated for both integer and strings
+
 def check_if_sorted(arr):
     i = 1
     is_sorted = True
